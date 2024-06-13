@@ -16,6 +16,5 @@ function debounce(fun, wait) {
   }
 }
 
-export default dom = {
-  debounce,
-}
+export default debounce;
+

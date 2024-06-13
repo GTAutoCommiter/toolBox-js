@@ -1,12 +1,16 @@
 {
-  "name": "toolbox",
+  "name": "toolBox-js",
   "version": "1.0.0",
   "description": "js常见方法工具包",
-  "main": "index.js",
+  "main": "./dist/toolBox-js.js",
+  "module": "./dist/toolBox-js.es.js",
+  "types": "./dist/toolBox-js.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx webpack --config ./config/webpack.dev.js",
-    "build": "npx webpack --config ./config/webpack.prod.js"
+    "test": "jest",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
@@ -24,11 +28,10 @@
   "devDependencies": {
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
+    "@types/jest": "^29.5.12",
     "babel-loader": "^9.1.3",
     "eslint": "^9.4.0",
     "jest": "^29.7.0",
-    "terser-webpack-plugin": "^5.3.10",
-    "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
+    "vite": "^5.2.13"
   }
 }

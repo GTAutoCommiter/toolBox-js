@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: undefined,
-    filename: 'bundle.js',
+    filename: 'toolBox.js',
     library: 'toolBox-js',
     libraryTarget: 'umd'
   },
@@ -17,7 +17,6 @@ module.exports = {
         exclude: /node_modules/
       }
     ],
-
   },
   optimization: {
     minimize: true,
