@@ -1,10 +1,10 @@
 {
-  "name": "toolBox-js",
+  "name": "jvtools",
   "version": "1.0.0",
   "description": "js常见方法工具包",
-  "main": "./dist/toolBox-js.js",
-  "module": "./dist/toolBox-js.es.js",
-  "types": "./dist/toolBox-js.d.ts",
+  "main": "./dist/toolbox.js",
+  "module": "./dist/toolbox.es.js",
+  "types": "./dist/toolbox.d.ts",
   "files": [
     "dist"
   ],
