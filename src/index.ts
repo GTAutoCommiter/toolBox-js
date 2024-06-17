@@ -1,4 +1,5 @@
 import Format from "./Format";
+import Validate from "./Validate";
 import arrayIsEqual from "./arrayIsEqual";
 import curry from "./curry";
 import debounce from "./debounce";
@@ -8,6 +9,7 @@ import throttle from "./throttle";
 
 export {
   Format,
+  Validate,
   arrayIsEqual,
   curry,
   debounce,
