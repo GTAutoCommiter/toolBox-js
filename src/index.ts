@@ -5,6 +5,7 @@ import curry from "./curry";
 import debounce from "./debounce";
 import groupByValue from "./groupByValue";
 import isEmpty from "./isEmpty";
+import nestByKey from "./nestByKey";
 import objToPath from "./objToPath";
 import pathToObj from "./pathToObj";
 import throttle from "./throttle";
@@ -17,6 +18,7 @@ export {
   debounce,
   groupByValue,
   isEmpty,
+  nestByKey,
   objToPath,
   pathToObj,
   throttle
