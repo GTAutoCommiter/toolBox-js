@@ -28,8 +28,8 @@ jobs:
 
       - name: 🔧 下载依赖和构建
         run: |
-          yarn install
-          yarn build
+          npm install
+          npm build
 
       - name: 🚀 部署
         uses: JamesIves/github-pages-deploy-action@v4
