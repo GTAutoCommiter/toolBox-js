@@ -32,6 +32,7 @@ jobs:
       - name: 🔧 下载依赖和构建
         run: |
           npm install
+          npm install vite
           npm build
 
       - name: 🚀 部署
