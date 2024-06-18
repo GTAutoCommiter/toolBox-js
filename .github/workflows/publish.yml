@@ -31,7 +31,7 @@ jobs:
 
       - name: 🔧 下载依赖和构建
         run: |
-          npm ci
+          npm install
           npm build
 
       - name: 🚀 部署
