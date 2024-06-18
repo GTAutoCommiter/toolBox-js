@@ -18,9 +18,16 @@ jobs:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm install -g npm
-      - run: npm ci
-      - run: npm i
-      - run: npm build
+      - name: 安装依赖 
+      - run: npm install
+      - name: 构建
+      - run: npm run build
+      - name: 部署
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: pages
+          FOLDER: build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
