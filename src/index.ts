@@ -1,4 +1,5 @@
 import Format from "./Format";
+import Time from "./Time";
 import Validate from "./Validate";
 import arrayIsEqual from "./arrayIsEqual";
 import curry from "./curry";
@@ -13,6 +14,7 @@ import throttle from "./throttle";
 
 export {
   Format,
+  Time,
   Validate,
   arrayIsEqual,
   curry,
