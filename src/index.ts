@@ -4,6 +4,7 @@ import Validate from "./Validate";
 import arrayIsEqual from "./arrayIsEqual";
 import curry from "./curry";
 import debounce from "./debounce";
+import deleteByPath from "./deleteByPath";
 import filterObj from "./filterObj";
 import groupByValue from "./groupByValue";
 import isEmpty from "./isEmpty";
@@ -19,6 +20,7 @@ export {
   arrayIsEqual,
   curry,
   debounce,
+  deleteByPath,
   filterObj,
   groupByValue,
   isEmpty,
