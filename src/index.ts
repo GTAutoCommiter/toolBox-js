@@ -13,6 +13,7 @@ import nestByKey from "./nestByKey";
 import objToPath from "./objToPath";
 import pathToObj from "./pathToObj";
 import strIsReg from "./strIsReg";
+import strToReg from "./strToReg";
 import throttle from "./throttle";
 import upperFirst from "./upperFirst";
 
@@ -32,6 +33,7 @@ export {
   objToPath,
   pathToObj,
   strIsReg,
+  strToReg,
   throttle,
   upperFirst
 };
