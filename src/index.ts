@@ -8,6 +8,7 @@ import deleteByPath from "./deleteByPath";
 import filterObj from "./filterObj";
 import groupByValue from "./groupByValue";
 import isEmpty from "./isEmpty";
+import iteratorObj from "./iteratorObj";
 import nestByKey from "./nestByKey";
 import objToPath from "./objToPath";
 import pathToObj from "./pathToObj";
@@ -24,6 +25,7 @@ export {
   filterObj,
   groupByValue,
   isEmpty,
+  iteratorObj,
   nestByKey,
   objToPath,
   pathToObj,
