@@ -13,6 +13,7 @@ import nestByKey from "./nestByKey";
 import objToPath from "./objToPath";
 import pathToObj from "./pathToObj";
 import throttle from "./throttle";
+import upperFirst from "./upperFirst";
 
 export {
   Format,
@@ -29,6 +30,7 @@ export {
   nestByKey,
   objToPath,
   pathToObj,
-  throttle
+  throttle,
+  upperFirst
 };
 
