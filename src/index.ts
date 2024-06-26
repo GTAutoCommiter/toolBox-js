@@ -12,6 +12,7 @@ import iteratorObj from "./iteratorObj";
 import nestByKey from "./nestByKey";
 import objToPath from "./objToPath";
 import pathToObj from "./pathToObj";
+import strIsReg from "./strIsReg";
 import throttle from "./throttle";
 import upperFirst from "./upperFirst";
 
@@ -30,6 +31,7 @@ export {
   nestByKey,
   objToPath,
   pathToObj,
+  strIsReg,
   throttle,
   upperFirst
 };
