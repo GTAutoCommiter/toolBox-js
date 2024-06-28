@@ -2,6 +2,7 @@ import Format from "./Format";
 import Time from "./Time";
 import Validate from "./Validate";
 import arrayIsEqual from "./arrayIsEqual";
+import cloneDeep from "./cloneDeep";
 import curry from "./curry";
 import debounce from "./debounce";
 import deleteByPath from "./deleteByPath";
@@ -22,6 +23,7 @@ export {
   Time,
   Validate,
   arrayIsEqual,
+  cloneDeep,
   curry,
   debounce,
   deleteByPath,
