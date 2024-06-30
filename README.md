@@ -6,7 +6,9 @@ javascript开发常用方法工具包
 
 # 版本日志
 
-## v.1.0.6【待发布】
+## v.1.0.6
+
+### 新增
 
 [feat: 添加可迭代对象方法](https://github.com/lao-jiawei/toolBox-js/commit/08b27c7b7819bab19e8444834fbdc211814ced52)
 
@@ -17,6 +19,10 @@ javascript开发常用方法工具包
 [feat: 添加判断字符串是否为正则表达式](https://github.com/lao-jiawei/toolBox-js/commit/0f91bc3d22ab270b68dc48f9c2c0a717c0f36bda)
 
 [feat: 添加字符串转换正则表达式方法](https://github.com/lao-jiawei/toolBox-js/commit/7fd18673cc9cc12f943d65336bfcd7a0ea61060c)
+
+### 修复
+
+[fix: 修复数组对象元素匹配相等bug](https://github.com/lao-jiawei/toolBox-js/commit/8e843e61545c728b5f4c9324e4684f1bf1346720)
 
 ## v1.0.5
 
