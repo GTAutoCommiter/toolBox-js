@@ -7,6 +7,7 @@ import curry from "./curry";
 import debounce from "./debounce";
 import deleteByPath from "./deleteByPath";
 import filterObj from "./filterObj";
+import getBaseURL from "./getBaseURL";
 import groupByValue from "./groupByValue";
 import isEmpty from "./isEmpty";
 import iteratorObj from "./iteratorObj";
@@ -27,8 +28,7 @@ export {
   curry,
   debounce,
   deleteByPath,
-  filterObj,
-  groupByValue,
+  filterObj, getBaseURL, groupByValue,
   isEmpty,
   iteratorObj,
   nestByKey,
