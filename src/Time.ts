@@ -40,9 +40,18 @@ function format(date, formatStr = 'YYYY-MM-DD HH:mm:ss') {
   return formatStr;
 }
 
+/**
+ * @func 检查日期是否有效
+ * @desc 
+ * @param {}  
+ * @return {} 
+ */
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+
 const Time = {
   format,
   getWeekDay,
+  isDateValid,
 }
 
 export default Time;

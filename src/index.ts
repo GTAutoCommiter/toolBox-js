@@ -20,23 +20,6 @@ import throttle from "./throttle";
 import upperFirst from "./upperFirst";
 
 export {
-  Format,
-  Time,
-  Validate,
-  arrayIsEqual,
-  cloneDeep,
-  curry,
-  debounce,
-  deleteByPath,
-  filterObj, getBaseURL, groupByValue,
-  isEmpty,
-  iteratorObj,
-  nestByKey,
-  objToPath,
-  pathToObj,
-  strIsReg,
-  strToReg,
-  throttle,
-  upperFirst
+  Format, Time, Validate, arrayIsEqual, cloneDeep, curry, debounce, deleteByPath, filterObj, getBaseURL, groupByValue, isEmpty, iteratorObj, nestByKey, objToPath, pathToObj, strIsReg, strToReg, throttle, upperFirst
 };
 
