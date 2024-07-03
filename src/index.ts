@@ -8,6 +8,7 @@ import debounce from "./debounce";
 import deleteByPath from "./deleteByPath";
 import filterObj from "./filterObj";
 import getBaseURL from "./getBaseURL";
+import getPerformance from "./getPerformance";
 import groupByValue from "./groupByValue";
 import isEmpty from "./isEmpty";
 import iteratorObj from "./iteratorObj";
@@ -20,6 +21,6 @@ import throttle from "./throttle";
 import upperFirst from "./upperFirst";
 
 export {
-  Format, Time, Validate, arrayIsEqual, cloneDeep, curry, debounce, deleteByPath, filterObj, getBaseURL, groupByValue, isEmpty, iteratorObj, nestByKey, objToPath, pathToObj, strIsReg, strToReg, throttle, upperFirst
+  Format, Time, Validate, arrayIsEqual, cloneDeep, curry, debounce, deleteByPath, filterObj, getBaseURL, getPerformance, groupByValue, isEmpty, iteratorObj, nestByKey, objToPath, pathToObj, strIsReg, strToReg, throttle, upperFirst
 };
 

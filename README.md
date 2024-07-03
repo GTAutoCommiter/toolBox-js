@@ -6,17 +6,27 @@ javascript开发常用方法工具包
 
 # 版本日志
 
-## v.1.0.6
+## v1.0.7【未发布】
 
 ### 新增
 
-[feat: 添加可迭代对象方法](https://github.com/lao-jiawei/toolBox-js/commit/08b27c7b7819bab19e8444834fbdc211814ced52)
+[getPerformance()-获取当前页面性能参数]()
+
+[Time.isDateValid(...args)-检查日期是否有效]()
+
+[getBaseURL(url)-获取不带参数的base URL]()
+
+## v1.0.6
+
+### 新增
+
+[iteratorObj(obj)-可迭代对象方法](https://lao-jiawei.github.io/docs/docs/jvtools/iteratorObj)
 
 [feat: 添加首字母大写方法](https://github.com/lao-jiawei/toolBox-js/commit/0287f3de219187ec869453453fa329a8b683bb5b)
 
 [feat: 添加时间格式化](https://github.com/lao-jiawei/toolBox-js/commit/69b399c6a317637d52d82c80c98e1f35fb0fdaf1)
 
-[feat: 添加判断字符串是否为正则表达式](https://github.com/lao-jiawei/toolBox-js/commit/0f91bc3d22ab270b68dc48f9c2c0a717c0f36bda)
+[strIsReg(str)-判断字符串是否为正则表达式](https://lao-jiawei.github.io/docs/docs/jvtools/strIsReg)
 
 [feat: 添加字符串转换正则表达式方法](https://github.com/lao-jiawei/toolBox-js/commit/7fd18673cc9cc12f943d65336bfcd7a0ea61060c)
 
@@ -26,7 +36,7 @@ javascript开发常用方法工具包
 
 ## v1.0.5
 
-[feat: 添加更具路径删除对象目标键值](https://github.com/lao-jiawei/toolBox-js/commit/a358b74e3551460c444591563011d895bc57bb38)
+[deleteByPath(obj, path, [splitStr='.'])-根据路径删除对象目标键值](https://lao-jiawei.github.io/docs/docs/jvtools/deleteByPath)
 
 ## v1.0.4
 
@@ -34,18 +44,28 @@ javascript开发常用方法工具包
 
 ## v1.0.3
 
-[feat: 添加节流、数组比较方法](https://github.com/lao-jiawei/toolBox-js/commit/57bb424c9904ed92d80da2a5eafb5bb3fd01693f)
+### 添加
 
-[feat: 添加柯里化函数](https://github.com/lao-jiawei/toolBox-js/commit/3940a27473e46d08bb9a9636df4917a5adb79f35)
+[arrayIsEqual(arr1,arr2)-数组比较方法](https://lao-jiawei.github.io/docs/docs/jvtools/arrayIsEqual)
 
-[feat: 添加格式化类](https://github.com/lao-jiawei/toolBox-js/commit/5a44a0498542e2068a14186ed28b9067c4be4388)
+[debounce(fun, wait)-防抖](https://lao-jiawei.github.io/docs/docs/jvtools/debounce)
+
+[throttle(fun, wait)-节流](https://lao-jiawei.github.io/docs/docs/jvtools/throttle)
+
+[curry(func, [arity=func.length])-柯里化函数](https://lao-jiawei.github.io/docs/docs/jvtools/curry)
+
+[Format.formatMoney(money, [symbol = "", decimals = 2])-格式化价格](https://lao-jiawei.github.io/docs/docs/jvtools/Format/formatMoney)
 
 [feat: 添加校验类](https://github.com/lao-jiawei/toolBox-js/commit/6ded90eb5d8dad99cea02033fe0d919c3d80c0e4)
 
-[feat: 添加控对象判断](https://github.com/lao-jiawei/toolBox-js/commit/1dfbea7371f7c28906ea545531d7d2ce66129277)
+[isEmpty(val)-空对象判断](https://lao-jiawei.github.io/docs/docs/jvtools/isEmpty)
 
-[feat: 添加收集相同值方法](https://github.com/lao-jiawei/toolBox-js/commit/f3b6aae36380c9a0712b0d8e238f0a95398ad733)
+[groupByValue(obj)-收集相同值方法](https://lao-jiawei.github.io/docs/docs/jvtools/groupByValue)
 
-[feat: 添加构建树形结构](https://github.com/lao-jiawei/toolBox-js/commit/8f6f1f9106d9d95806f4ec330bc22d2a0e638f5a)
+[nestByKey(items, [id = null, link = 'parentId'])-构建树形结构](https://lao-jiawei.github.io/docs/docs/jvtools/nestByKey)
 
-[feat: 添加过滤对象方法](https://github.com/lao-jiawei/toolBox-js/commit/ba51f741af66d68b2fc58628f414e7f6b7a73ecc)
+[filterObj(obj,arr)-过滤对象方法](https://lao-jiawei.github.io/docs/docs/jvtools/filterObj)
+
+[objToPath(obj)-对象转化成url参数](https://lao-jiawei.github.io/docs/docs/jvtools/URL/objToPath)
+
+[pathToObj(str)-路径参数解析成对象](https://lao-jiawei.github.io/docs/docs/jvtools/URL/pathToObj)
