@@ -6,21 +6,21 @@ javascript开发常用方法工具包
 
 # 版本日志
 
-## v1.0.7【未发布】
+## v1.0.7
 
 ### 新增
 
-[numFixed(num, [precision = 2])-指定小数位进行四舍五入]()
+[numFixed(num, [precision = 2])-指定小数位进行四舍五入](https://lao-jiawei.github.io/docs/docs/jvtools/numFixed)
 
-[fahrenheitToCelsius(celsius)-摄氏度转华氏度]()
+[fahrenheitToCelsius(celsius)-摄氏度转华氏度](https://lao-jiawei.github.io/docs/docs/jvtools/Format/fahrenheitToCelsius)
 
-[Format.celsiusToFahrenheit(celsius)-摄氏度转华氏度]()
+[Format.celsiusToFahrenheit(celsius)-摄氏度转华氏度](https://lao-jiawei.github.io/docs/docs/jvtools/Format/celsiusToFahrenheit)
 
-[getPerformance()-获取当前页面性能参数]()
+[getPerformance()-获取当前页面性能参数](https://lao-jiawei.github.io/docs/docs/jvtools/getPerformance)
 
-[Time.isDateValid(...args)-检查日期是否有效]()
+[Time.isDateValid(...args)-检查日期是否有效](https://lao-jiawei.github.io/docs/docs/jvtools/Time/isDateValid)
 
-[getBaseURL(url)-获取不带参数的base URL]()
+[getBaseURL(url)-获取不带参数的base URL](https://lao-jiawei.github.io/docs/docs/jvtools/URL/getBaseURL)
 
 ## v1.0.6
 
