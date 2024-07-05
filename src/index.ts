@@ -13,6 +13,7 @@ import groupByValue from "./groupByValue";
 import isEmpty from "./isEmpty";
 import iteratorObj from "./iteratorObj";
 import nestByKey from "./nestByKey";
+import numFixed from "./numFixed";
 import objToPath from "./objToPath";
 import pathToObj from "./pathToObj";
 import strIsReg from "./strIsReg";
@@ -21,6 +22,6 @@ import throttle from "./throttle";
 import upperFirst from "./upperFirst";
 
 export {
-  Format, Time, Validate, arrayIsEqual, cloneDeep, curry, debounce, deleteByPath, filterObj, getBaseURL, getPerformance, groupByValue, isEmpty, iteratorObj, nestByKey, objToPath, pathToObj, strIsReg, strToReg, throttle, upperFirst
+  Format, Time, Validate, arrayIsEqual, cloneDeep, curry, debounce, deleteByPath, filterObj, getBaseURL, getPerformance, groupByValue, isEmpty, iteratorObj, nestByKey, numFixed, objToPath, pathToObj, strIsReg, strToReg, throttle, upperFirst
 };
 
