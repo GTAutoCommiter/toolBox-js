@@ -24,8 +24,26 @@ const formatMoney = (money, symbol = "", decimals = 2) => {
   return formatToFixed(money, decimals).replace(/\B(?=(\d{3})+\b)/g, ",").replace(/^/, `${symbol}`)
 }
 
+/**
+ * @func 摄氏度转华氏度
+ * @desc 
+ * @param {number} celsius 摄氏度  
+ * @return {number} 华氏度 
+ */
+const celsiusToFahrenheit = (celsius) => celsius * 9 / 5 + 32
+
+/**
+ * @func 华氏度转摄氏度
+ * @desc 
+ * @param {number} fahrenheit 华氏度
+ * @return {number} 摄氏度 
+ */
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5 / 9
+
 const Format = {
   formatMoney,
+  celsiusToFahrenheit,
+  fahrenheitToCelsius,
 };
 
 export default Format;
