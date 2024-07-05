@@ -1,6 +1,6 @@
 {
   "name": "jvtools",
-  "version": "1.0.7-0",
+  "version": "1.0.7",
   "description": "js常见方法工具包",
   "main": "./dist/toolbox.js",
   "module": "./dist/toolbox.es.js",
