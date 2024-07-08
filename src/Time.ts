@@ -48,10 +48,21 @@ function format(date, formatStr = 'YYYY-MM-DD HH:mm:ss') {
  */
 const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
 
+/**
+ * @func 判断是否为润年
+ * @desc 
+ * @param {number} year 需要判断的年份
+ * @return {boolean} 若为润年返回true,否则返回false 
+ */
+function isLeapYear(year) {
+  return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+}
+
 const Time = {
   format,
   getWeekDay,
   isDateValid,
+  isLeapYear,
 }
 
 export default Time;

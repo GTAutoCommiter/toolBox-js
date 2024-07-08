@@ -21,4 +21,11 @@ test('测试Time.isDateValid', () => {
   expect(Time.isDateValid({})).toBe(false);
 })
 
+test('测试Time.isDateValid', () => {
+  expect(Time.isLeapYear(2020)).toBe(true);
+  expect(Time.isLeapYear(2021)).toBe(false);
+  expect(Time.isLeapYear(2000)).toBe(true);
+  expect(Time.isLeapYear(1900)).toBe(false);
+})
+
 
