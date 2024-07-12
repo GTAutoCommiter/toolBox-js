@@ -2,6 +2,7 @@ import Format from "./Format";
 import Time from "./Time";
 import Validate from "./Validate";
 import arrayIsEqual from "./arrayIsEqual";
+import calcDistance from "./calcDistance";
 import cloneDeep from "./cloneDeep";
 import curry from "./curry";
 import debounce from "./debounce";
@@ -22,6 +23,6 @@ import throttle from "./throttle";
 import upperFirst from "./upperFirst";
 
 export {
-  Format, Time, Validate, arrayIsEqual, cloneDeep, curry, debounce, deleteByPath, filterObj, getBaseURL, getPerformance, groupByValue, isEmpty, iteratorObj, nestByKey, numFixed, objToPath, pathToObj, strIsReg, strToReg, throttle, upperFirst
+  Format, Time, Validate, arrayIsEqual, calcDistance, cloneDeep, curry, debounce, deleteByPath, filterObj, getBaseURL, getPerformance, groupByValue, isEmpty, iteratorObj, nestByKey, numFixed, objToPath, pathToObj, strIsReg, strToReg, throttle, upperFirst
 };
 
