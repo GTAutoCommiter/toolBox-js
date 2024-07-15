@@ -10,6 +10,8 @@ javascript开发常用方法工具包
 
 ### 新增
 
+[getCookie(name)-获取cookie]()
+
 [calcDistance(loc1, loc2, splitStr = ',')-计算两地经纬度距离]()
 
 [Time.isLeapYear(year)-判断是否为润年]()
