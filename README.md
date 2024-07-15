@@ -10,6 +10,8 @@ javascript开发常用方法工具包
 
 ### 新增
 
+[rgbToHex(r,g,b)-rgb转十六进制字符]()
+
 [getCookie(name)-获取cookie]()
 
 [calcDistance(loc1, loc2, splitStr = ',')-计算两地经纬度距离]()
