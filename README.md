@@ -10,6 +10,8 @@ javascript开发常用方法工具包
 
 ### 新增
 
+[clearCookies()-清除所有Cookie]()
+
 [Time.dayDif(date1,date2)-获取两日期天数差]()
 
 [rgbToHex(r,g,b)-rgb转十六进制字符]()
