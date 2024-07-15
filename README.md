@@ -10,15 +10,15 @@ javascript开发常用方法工具包
 
 ### 新增
 
-[clearCookies()-清除所有Cookie]()
+[clearCookies()-清除所有Cookie](https://lao-jiawei.github.io/docs/docs/jvtools/clearCookies)
 
-[Time.dayDif(date1,date2)-获取两日期天数差]()
+[Time.dayDif(date1,date2)-获取两日期天数差](https://lao-jiawei.github.io/docs/docs/jvtools/Time/dayDif)
 
-[rgbToHex(r,g,b)-rgb转十六进制字符]()
+[rgbToHex(r,g,b)-rgb转十六进制字符](https://lao-jiawei.github.io/docs/docs/jvtools/rgbToHex)
 
-[getCookie(name)-获取cookie]()
+[getCookie(name)-获取cookie](https://lao-jiawei.github.io/docs/docs/jvtools/getCookie)
 
-[calcDistance(loc1, loc2, splitStr = ',')-计算两地经纬度距离]()
+[calcDistance(loc1, loc2, splitStr = ',')-计算两地经纬度距离](https://lao-jiawei.github.io/docs/docs/jvtools/calcDistance)
 
 [Time.isLeapYear(year)-判断是否为润年]()
 
