@@ -28,4 +28,8 @@ test('测试Time.isDateValid', () => {
   expect(Time.isLeapYear(1900)).toBe(false);
 })
 
+test('测试Time.dayDif ', () => {
+  expect(Time.dayDif('2024-07-14','2024-07-15')).toBe(1);
+  expect(Time.dayDif('2024.07.14','2024.07.16')).toBe(2);
+})
 

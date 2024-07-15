@@ -58,11 +58,26 @@ function isLeapYear(year) {
   return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
 }
 
+/**
+ * @func 计算两日期天数差
+ * @desc 
+ * @param {Date} date1 日期1 
+ * @param {Date} date2 日期2
+ * @return {number} 天数差 
+ */
+const dayDif = (date1, date2) => {
+  const d1 = new Date(date1);
+  const d2 = new Date(date2);
+  return Math.ceil(Math.abs(d1.getTime() - d2.getTime()) / 86400000)
+}
+
+
 const Time = {
   format,
   getWeekDay,
   isDateValid,
   isLeapYear,
+  dayDif,
 }
 
 export default Time;
