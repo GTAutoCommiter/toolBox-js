@@ -8,7 +8,7 @@ javascript开发常用方法工具包
 
 ## v.1.0.9【未发布】
 
-[]()
+[decimalToBaseBit(decimal, bit = 10)-10进制转x进制]()
 
 [baseBitToDecimal(str, bit = 10)-x进制转10进制]()
 

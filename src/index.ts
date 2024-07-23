@@ -9,6 +9,7 @@ import cloneDeep from "./cloneDeep";
 import createMatrix from "./createMatrix";
 import curry from "./curry";
 import debounce from "./debounce";
+import decimalToBaseBit from "./decimalToBaseBit";
 import deleteByPath from "./deleteByPath";
 import filterObj from "./filterObj";
 import getBaseURL from "./getBaseURL";
@@ -28,6 +29,6 @@ import throttle from "./throttle";
 import upperFirst from "./upperFirst";
 
 export {
-  Format, Time, Validate, arrayIsEqual, baseBitToDecimal, calcDistance, clearCookies, cloneDeep, createMatrix, curry, debounce, deleteByPath, filterObj, getBaseURL, getCookie, getPerformance, groupByValue, isEmpty, iteratorObj, nestByKey, numFixed, objToPath, pathToObj, rgbToHex, strIsReg, strToReg, throttle, upperFirst
+  Format, Time, Validate, arrayIsEqual, baseBitToDecimal, calcDistance, clearCookies, cloneDeep, createMatrix, curry, debounce, decimalToBaseBit, deleteByPath, filterObj, getBaseURL, getCookie, getPerformance, groupByValue, isEmpty, iteratorObj, nestByKey, numFixed, objToPath, pathToObj, rgbToHex, strIsReg, strToReg, throttle, upperFirst
 };
 
