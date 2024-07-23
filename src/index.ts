@@ -2,6 +2,7 @@ import Format from "./Format";
 import Time from "./Time";
 import Validate from "./Validate";
 import arrayIsEqual from "./arrayIsEqual";
+import baseBitToDecimal from "./baseBitToDecimal";
 import calcDistance from "./calcDistance";
 import clearCookies from "./clearCookies";
 import cloneDeep from "./cloneDeep";
@@ -27,6 +28,6 @@ import throttle from "./throttle";
 import upperFirst from "./upperFirst";
 
 export {
-  Format, Time, Validate, arrayIsEqual, calcDistance, clearCookies, cloneDeep, createMatrix, curry, debounce, deleteByPath, filterObj, getBaseURL, getCookie, getPerformance, groupByValue, isEmpty, iteratorObj, nestByKey, numFixed, objToPath, pathToObj, rgbToHex, strIsReg, strToReg, throttle, upperFirst
+  Format, Time, Validate, arrayIsEqual, baseBitToDecimal, calcDistance, clearCookies, cloneDeep, createMatrix, curry, debounce, deleteByPath, filterObj, getBaseURL, getCookie, getPerformance, groupByValue, isEmpty, iteratorObj, nestByKey, numFixed, objToPath, pathToObj, rgbToHex, strIsReg, strToReg, throttle, upperFirst
 };
 

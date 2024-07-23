@@ -8,6 +8,10 @@ javascript开发常用方法工具包
 
 ## v.1.0.9【未发布】
 
+[]()
+
+[baseBitToDecimal(str, bit = 10)-x进制转10进制]()
+
 [createMatrix(row=1, column=1)-构建矩阵]()
 
 ## v1.0.8
