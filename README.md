@@ -8,6 +8,10 @@ javascript开发常用方法工具包
 
 ## v.1.0.9【未发布】
 
+### 新增
+
+[Format.LatAndLong(lat, long)-检查并得到正确的经纬度]()
+
 [decimalToBaseBit(decimal, bit = 10)-10进制转x进制]()
 
 [baseBitToDecimal(str, bit = 10)-x进制转10进制]()
