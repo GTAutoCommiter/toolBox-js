@@ -10,6 +10,8 @@ javascript开发常用方法工具包
 
 ### 新增
 
+[mapMerge(mapObj, key, value, remappingFunction)-js 实现 java 中的 mapMerge 功能]()
+
 [Format.LatAndLong(lat, long)-检查并得到正确的经纬度]()
 
 [decimalToBaseBit(decimal, bit = 10)-10进制转x进制]()

@@ -18,6 +18,7 @@ import getPerformance from "./getPerformance";
 import groupByValue from "./groupByValue";
 import isEmpty from "./isEmpty";
 import iteratorObj from "./iteratorObj";
+import mapMerge from "./mapMerge";
 import nestByKey from "./nestByKey";
 import numFixed from "./numFixed";
 import objToPath from "./objToPath";
@@ -29,6 +30,6 @@ import throttle from "./throttle";
 import upperFirst from "./upperFirst";
 
 export {
-  Format, Time, Validate, arrayIsEqual, baseBitToDecimal, calcDistance, clearCookies, cloneDeep, createMatrix, curry, debounce, decimalToBaseBit, deleteByPath, filterObj, getBaseURL, getCookie, getPerformance, groupByValue, isEmpty, iteratorObj, nestByKey, numFixed, objToPath, pathToObj, rgbToHex, strIsReg, strToReg, throttle, upperFirst
+  Format, Time, Validate, arrayIsEqual, baseBitToDecimal, calcDistance, clearCookies, cloneDeep, createMatrix, curry, debounce, decimalToBaseBit, deleteByPath, filterObj, getBaseURL, getCookie, getPerformance, groupByValue, isEmpty, iteratorObj, mapMerge, nestByKey, numFixed, objToPath, pathToObj, rgbToHex, strIsReg, strToReg, throttle, upperFirst
 };
 
