@@ -1,3 +1,10 @@
+/**
+ * @func 不定进制转十进制 
+ * @desc 
+ * @param {string} 任意进制字符 
+ * @param {string} 任意进制字符 
+ * @return {number} 十进制数值 
+ */
 const baseBitToDecimal = (str, bit = 10) => {
   let base = bit
   if (bit > 62) base = 62;

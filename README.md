@@ -10,6 +10,12 @@ javascript开发常用方法工具包
 
 ### 新增
 
+[Cookies.getAll()-获取所有Cookie]()
+
+[Cookies.get(name)-获取指定名称的cookie]()
+
+[Cookies.clearAll()-清除所有Cookie]()
+
 [mapMerge(mapObj, key, value, remappingFunction)-js 实现 java 中的 mapMerge 功能]()
 
 [Format.LatAndLong(lat, long)-检查并得到正确的经纬度]()
@@ -19,6 +25,10 @@ javascript开发常用方法工具包
 [baseBitToDecimal(str, bit = 10)-x进制转10进制]()
 
 [createMatrix(row=1, column=1)-构建矩阵]()
+
+### 结构调整
+
+* 抽离出Cookies方法类，下一版`clearCookies`方法，变为`Cookies.clearAll`
 
 ## v1.0.8
 

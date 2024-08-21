@@ -1,3 +1,4 @@
+import Cookies from "./Cookies";
 import Format from "./Format";
 import Time from "./Time";
 import Validate from "./Validate";
@@ -29,7 +30,5 @@ import strToReg from "./strToReg";
 import throttle from "./throttle";
 import upperFirst from "./upperFirst";
 
-export {
-  Format, Time, Validate, arrayIsEqual, baseBitToDecimal, calcDistance, clearCookies, cloneDeep, createMatrix, curry, debounce, decimalToBaseBit, deleteByPath, filterObj, getBaseURL, getCookie, getPerformance, groupByValue, isEmpty, iteratorObj, mapMerge, nestByKey, numFixed, objToPath, pathToObj, rgbToHex, strIsReg, strToReg, throttle, upperFirst
-};
+export { Cookies, Format, Time, Validate, arrayIsEqual, baseBitToDecimal, calcDistance, clearCookies, cloneDeep, createMatrix, curry, debounce, decimalToBaseBit, deleteByPath, filterObj, getBaseURL, getCookie, getPerformance, groupByValue, isEmpty, iteratorObj, mapMerge, nestByKey, numFixed, objToPath, pathToObj, rgbToHex, strIsReg, strToReg, throttle, upperFirst };
 
