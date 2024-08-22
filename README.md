@@ -6,23 +6,25 @@ javascript开发常用方法工具包
 
 # 版本日志
 
-## v.1.0.9【未发布】
+## v.1.0.10【未发布】
+
+## v.1.0.9
 
 ### 新增
 
-[Cookies.getAll()-获取所有Cookie]()
+[Cookies.getAll()-获取所有Cookie](https://lao-jiawei.github.io/docs/docs/jvtools/Cookies/clearAll)
 
-[Cookies.get(name)-获取指定名称的cookie]()
+[Cookies.get(name)-获取指定名称的cookie](https://lao-jiawei.github.io/docs/docs/jvtools/Cookies/get)
 
-[Cookies.clearAll()-清除所有Cookie]()
+[Cookies.clearAll()-清除所有Cookie](https://lao-jiawei.github.io/docs/docs/jvtools/Cookies/clearAll)
 
 [mapMerge(mapObj, key, value, remappingFunction)-js 实现 java 中的 mapMerge 功能]()
 
-[Format.LatAndLong(lat, long)-检查并得到正确的经纬度]()
+[Format.LatAndLong(lat, long)-检查并得到正确的经纬度](https://lao-jiawei.github.io/docs/docs/jvtools/Format/LatAndLong)
 
-[decimalToBaseBit(decimal, bit = 10)-10进制转x进制]()
+[decimalToBaseBit(decimal, bit = 10)-10进制转x进制](https://lao-jiawei.github.io/docs/docs/jvtools/decimalToBaseBit)
 
-[baseBitToDecimal(str, bit = 10)-x进制转10进制]()
+[baseBitToDecimal(str, bit = 10)-x进制转10进制](https://lao-jiawei.github.io/docs/docs/jvtools/baseBitToDecimal)
 
 [createMatrix(row=1, column=1)-构建矩阵]()
 

@@ -5,16 +5,17 @@
  * @return {} 
  */
 function throttle(fn, delay) {
-  let time = true;
-  return () => {
-    if (!time) {
-      return
+  let lock = false;
+  let timer = null;
+  return function (...args) {
+    if (!lock) {
+      lock = true;
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(() => {
+        lock = false;
+        fn.apply(this, args);
+      }, delay)
     }
-    time = false;
-    setTimeout(() => {
-      time = true;
-      fn.apply(this, arguments)
-    }, delay);
   }
 }
 export default throttle;
