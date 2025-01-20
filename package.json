@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "test": "jest",
-    "build": "vite build"
+    "build": "vite build",
+    "prepare": "npm version patch && npm run test && npm run build"
   },
   "repository": {
     "type": "git",
