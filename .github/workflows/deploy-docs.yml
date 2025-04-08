@@ -1,0 +1,39 @@
+name: Deploy Docs to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'package.json'
+      - 'docusaurus.config.js'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          
+      - name: Install dependencies
+        run: yarn install
+        
+      - name: Build
+        run: |
+          yarn build
+          echo "Built files:"
+          ls -la build/
+          
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages  # 明确指定目标分支
+          force_orphan: true  # 确保每次都是全新部署
+          full_commit_message: "Deploy Docusaurus site $(date -u +'%Y-%m-%d %H:%M:%S')"
