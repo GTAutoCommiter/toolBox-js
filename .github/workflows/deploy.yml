@@ -10,15 +10,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0  # 添加这行获取完整git历史
+          fetch-depth: 0
       - uses: actions/setup-node@v2
         with:
           node-version: 21
       - run: git config --global user.name "GitHub Actions"
       - run: git config --global user.email "actions@github.com"
+      - run: git reset --hard HEAD  # 重置所有更改
       - run: git clean -fd  # 清理工作目录
       - run: yarn install
-      - run: yarn build
+      - run: git checkout .  # 确保没有未跟踪的文件
+      - run: yarn build  # 直接运行build，跳过version patch和test
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
