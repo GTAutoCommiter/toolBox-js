@@ -9,9 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # 添加这行获取完整git历史
       - uses: actions/setup-node@v2
         with:
           node-version: 21
+      - run: git config --global user.name "GitHub Actions"
+      - run: git config --global user.email "actions@github.com"
+      - run: git clean -fd  # 清理工作目录
       - run: yarn install
       - run: yarn build
       - name: Deploy
