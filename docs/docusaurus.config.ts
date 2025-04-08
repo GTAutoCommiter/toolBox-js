@@ -103,7 +103,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/build',
+              to: './build', // 确保与工作流中的publish_dir一致
             },
           ],
         },

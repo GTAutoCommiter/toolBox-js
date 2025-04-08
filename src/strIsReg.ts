@@ -1,17 +1,8 @@
-/**
- * @func 判断字符串是否是正则表达式
- * @desc 
- * @param {}  
- * @return {} 
- */
-function strIsReg(str) {
-  let isReg = false;
+export function strIsReg(str: string) {
   try {
-    isReg = eval(str) instanceof RegExp
-  } catch (e) {
-    isReg = false
+    new RegExp(str);
+    return true;
+  } catch {
+    return false;
   }
-  return isReg
 }
-
-export default strIsReg;

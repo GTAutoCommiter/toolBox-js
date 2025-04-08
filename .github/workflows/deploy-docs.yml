@@ -31,8 +31,10 @@ jobs:
       - name: Build
         run: |
           yarn build
-          echo "Built files:"
+          echo "构建完成，输出目录内容:"
           ls -la build/
+          echo "验证构建结果:"
+          [ -d "build" ] && echo "构建目录存在" || echo "错误：构建目录不存在"
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
