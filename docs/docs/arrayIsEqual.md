@@ -7,7 +7,7 @@ import {arrayIsEqual} from '../../src/arrayIsEqual';
 
 判断两个数组是否相等（元素相同，顺序无关）
 
-## 使用示例
+## 使用示例 
 
 ```typescript
 import arrayIsEqual from 'toolBox-js/arrayIsEqual';
