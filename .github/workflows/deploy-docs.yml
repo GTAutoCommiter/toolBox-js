@@ -30,9 +30,10 @@ jobs:
         
       - name: Build
         run: |
-          yarn build
-          echo "构建完成，输出目录内容:"
-          ls -la build/
+          yarn build-docs
+          echo "验证构建目录:"
+          ls -la build/ || echo "构建失败，目录未生成"
+          [ -d "build" ] && echo "构建成功" || (echo "构建失败"; exit 1)
           echo "验证构建结果:"
           [ -d "build" ] && echo "构建目录存在" || echo "错误：构建目录不存在"
           

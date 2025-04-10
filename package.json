@@ -11,7 +11,7 @@
   "scripts": {
     "deploy": "docusaurus deploy",
     "test": "jest",
-    "build": "vite build",
+    "build-docs": "docusaurus build",
     "prepare": "npm version patch && npm run test && npm run build",
     "release": "standard-version"
   },
