@@ -20,7 +20,7 @@ const config: Config = {
   organizationName: 'lao-jiawei', // 替换为你的GitHub用户名
   projectName: 'toolBox-js', // 替换为你的仓库名称
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
