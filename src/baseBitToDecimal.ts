@@ -1,9 +1,8 @@
 /**
- * @func 不定进制转十进制 
- * @desc 
- * @param {string} 任意进制字符 
- * @param {string} 任意进制字符 
- * @return {number} 十进制数值 
+ * 将任意进制的字符串转换为十进制数值。
+ * @param {string} str 要转换的任意进制字符串。
+ * @param {number} [bit=10] 输入字符串的进制 (2-62)。
+ * @returns {number} 转换后的十进制数值。
  */
 const baseBitToDecimal = (str, bit = 10) => {
   let base = bit

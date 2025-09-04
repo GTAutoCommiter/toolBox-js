@@ -1,9 +1,8 @@
 /**
- * @func 对象转化成url参数
- * @desc 将{key:value},转化成'&key=value';
- * @param {object} routeParamObj 需要转换成url参数的对象
- * PS：routeParamObj 中的数组将会转换成'&array=a,b,c'的字符串;
- * @return {string}
+ * 对象转化成url参数.
+ * 注意: 对象中的数组将会转换成 '&array=a,b,c' 的字符串.
+ * @param {object} routeParamObj 需要转换成url参数的对象, e.g. `{a:1,b:2}`
+ * @returns {string} URL参数字符串, e.g. `a=1&b=2`
  */
 const objToPath = (routeParamObj) => {
   const routeParams = Object.entries(routeParamObj).reduce((res, [key, value]) => {

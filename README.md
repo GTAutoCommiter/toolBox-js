@@ -18,7 +18,7 @@ javascript开发常用方法工具包
 
 [Cookies.clearAll()-清除所有Cookie](https://lao-jiawei.github.io/docs/docs/jvtools/Cookies/clearAll)
 
-[mapMerge(mapObj, key, value, remappingFunction)-js 实现 java 中的 mapMerge 功能]()
+mapMerge(mapObj, key, value, remappingFunction)-js 实现 java 中的 mapMerge 功能
 
 [Format.LatAndLong(lat, long)-检查并得到正确的经纬度](https://lao-jiawei.github.io/docs/docs/jvtools/Format/LatAndLong)
 

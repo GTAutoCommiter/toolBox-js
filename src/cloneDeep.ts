@@ -1,8 +1,13 @@
 /**
- * @func 深拷贝-JSON序列化实现
- * @desc 
- * @param {}  
- * @return {} 
+ * @module cloneDeep
+ * @description 深拷贝函数集合
+ */
+
+/**
+ * 使用JSON序列化实现深拷贝。
+ * 注意：此方法无法拷贝 `undefined`, `function`, `symbol` 等类型。
+ * @param {any} val 需要深拷贝的值。
+ * @returns {any} 深拷贝后的值。
  */
 function byJSON(val) {
   const res = JSON.parse(JSON.stringify(val));
@@ -10,10 +15,9 @@ function byJSON(val) {
 }
 
 /**
- * @func 深拷贝-递归实现
- * @desc 
- * @param {}  
- * @return {} 
+ * 使用递归实现深拷贝。
+ * @param {any} obj 需要深拷贝的对象或值。
+ * @returns {any} 深拷贝后的对象或值。
  */
 function byRecursive(obj) {
   let cloneObj = null //深拷贝之后的对象

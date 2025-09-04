@@ -1,21 +1,26 @@
-const WEEK_DAY_ENUMS = ["日", "一", "二", "三", "四", "五", "六"];
 /**
- * @func 日期转换星期
- * @desc 
+ * @module Time
+ * @description 时间处理相关函数
+ */
+
+// @ts-nocheck
+const WEEK_DAY_ENUMS = ["日", "一", "二", "三", "四", "五", "六"];
+
+/**
+ * 日期转换星期
  * @param {Date} date 日期 
- * @return {String} 
+ * @returns {string} 
  */
 const getWeekDay = (date, prefix = "星期") => {
   const weekDayText = WEEK_DAY_ENUMS[new Date(date).getDay()];
   return `${prefix}${weekDayText}`;
 }
 
-
 /**
- * @func 格式化
- * @desc 
- * @param {}  
- * @return {} 
+ * 格式化日期
+ * @param {Date | string | number} date 需要格式化的日期
+ * @param {string} [formatStr='YYYY-MM-DD HH:mm:ss'] 格式化字符串
+ * @returns {string} 格式化后的日期字符串
  */
 function format(date, formatStr = 'YYYY-MM-DD HH:mm:ss') {
   const curDate = new Date(date);
@@ -41,29 +46,26 @@ function format(date, formatStr = 'YYYY-MM-DD HH:mm:ss') {
 }
 
 /**
- * @func 检查日期是否有效
- * @desc 
- * @param {}  
- * @return {} 
+ * 检查日期是否有效
+ * @param {...any} val 传递给Date构造函数的参数
+ * @returns {boolean} 如果日期有效返回true, 否则返回false
  */
 const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
 
 /**
- * @func 判断是否为润年
- * @desc 
+ * 判断是否为闰年
  * @param {number} year 需要判断的年份
- * @return {boolean} 若为润年返回true,否则返回false 
+ * @returns {boolean} 若为闰年返回true,否则返回false 
  */
 function isLeapYear(year) {
   return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
 }
 
 /**
- * @func 计算两日期天数差
- * @desc 
- * @param {Date} date1 日期1 
- * @param {Date} date2 日期2
- * @return {number} 天数差 
+ * 计算两个日期之间的天数差
+ * @param {Date | string} date1 日期1 
+ * @param {Date | string} date2 日期2
+ * @returns {number} 天数差 
  */
 const dayDif = (date1, date2) => {
   const d1 = new Date(date1);

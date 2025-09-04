@@ -1,8 +1,5 @@
 /**
  * @func map对象合并 
- * @desc 
- * @param {}  
- * @return {} 
  */
 const mapMerge = (mapObj, key, value, remappingFunction) => {
   if (!mapObj.has(key)) {

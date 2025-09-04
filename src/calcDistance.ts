@@ -5,15 +5,12 @@ function toRadians(degrees) {
 }
 
 /**
- * @func 获取两经纬度距离
- * @desc 支持经纬度格式
- * 1.[lng,lat]
- * 2.`lng,lat`
- * 3.`lng${splitStr}lat`
- * @param {Array} loc1 地址1经纬度 
- * @param {Array} loc2 地址2经纬度
- * @param {string} splitStr 分割字符
- * @return {number} 两地距离
+ * 根据经纬度计算两点之间的距离。
+ * 支持的经纬度格式: `[lng,lat]`, `'lng,lat'`, or `'lng${splitStr}lat'`.
+ * @param {number[] | string} loc1 地点1的经纬度。
+ * @param {number[] | string} loc2 地点2的经纬度。
+ * @param {string} [splitStr=','] 如果输入是字符串，用什么字符分割经纬度。
+ * @returns {number} 两点之间的距离 (米)。
  */
 function calcDistance(loc1, loc2, splitStr = ',') {
   let loc1Arr = loc1, loc2Arr = loc2;

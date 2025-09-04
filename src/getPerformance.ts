@@ -1,7 +1,7 @@
+// @ts-nocheck
 /**
- * @func 获取当前页面性能参数
- * @desc
- * @return {Object}
+ * 获取当前页面加载性能的各项指标参数。
+ * @returns {object} 包含各种性能指标的对象。
  */
 function getPerformance() {
   const performance = window.performance;

@@ -1,13 +1,11 @@
 /**
- * @func 路径参数解析成对象
- * @desc 示例:
- * 转换前：`cardId=CPB2024xxx116-488&username=xxx`
- * 转换后：{
- *          cardId:'CPB2024xxx116-488',
- *          username:'xxx',
- *        }
- * @param {string} pathParam 路径未解析参数
- * @return {object}
+ * 路径参数解析成对象
+ * @example
+ * ```js
+ * pathToObj('/pages/index/index?a=1&b=2') // returns {a: '1', b: '2'}
+ * ```
+ * @param {string} pathParam 包含URL参数的路径.
+ * @returns {object} 解析后的参数对象.
  */
 const pathToObj = (pathParam) => {
   let res = {};

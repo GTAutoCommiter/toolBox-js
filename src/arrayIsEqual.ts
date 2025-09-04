@@ -1,9 +1,8 @@
 /**
- * @func 判断数组是否相等
- * @desc 
- * @param {array} arr1   
- * @param {array} arr2   
- * @return {boolean}  
+ * 判断两个数组是否含有相同的元素（不考虑顺序）。
+ * @param {any[]} arr1 第一个数组。
+ * @param {any[]} arr2 第二个数组。
+ * @returns {boolean} 如果两个数组包含相同的元素，则返回true，否则返回false。
  */
 function arrayIsEqual(arr1, arr2) {
   if (arr1.length !== arr2.length) {
