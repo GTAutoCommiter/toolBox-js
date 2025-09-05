@@ -4,6 +4,7 @@
  * @returns 一个以原对象的value为键，原对象的key组成的数组为值的对象。
  */
 function groupByValue(obj: Record<string, any>): Record<string, string[]> {
+
   return Object.entries(obj).reduce(
     (acc: Record<string, string[]>, [key, val]) => {
       const valueKey = String(val);
