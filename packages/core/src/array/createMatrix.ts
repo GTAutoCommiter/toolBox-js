@@ -4,7 +4,7 @@
  * @param column - Number of columns
  * @returns A 2D array initialized with null
  */
-export function createMatrix<T = any>(
+export function createMatrix<T = unknown>(
   row: number = 1,
   column: number = 1,
 ): (T | null)[][] {

@@ -9,6 +9,8 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v3
@@ -24,6 +26,9 @@ jobs:
 
       - name: Lint
         run: pnpm lint
+
+      - name: Generate API Docs
+        run: pnpm docs:api
 
       - name: Test
         run: pnpm test

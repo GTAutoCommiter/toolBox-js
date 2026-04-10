@@ -4,7 +4,7 @@
  * @returns An object where keys are values from the original object and values are arrays of corresponding keys
  */
 export function groupByValue(
-  obj: Record<string, any>,
+  obj: Record<string, unknown>,
 ): Record<string, string[]> {
   return Object.entries(obj).reduce(
     (acc: Record<string, string[]>, [key, val]) => {

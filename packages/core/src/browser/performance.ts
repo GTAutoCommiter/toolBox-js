@@ -49,7 +49,7 @@ export function getPerformance(): PerformanceMetrics | null {
     secureConnectionStart,
   } = timing;
 
-  const res: any = {};
+  const res: Partial<PerformanceMetrics> = {};
 
   res.pageLoad = loadEventEnd - startTime;
   res.DNSParsing = domainLookupEnd - domainLookupStart;
@@ -69,13 +69,14 @@ export function getPerformance(): PerformanceMetrics | null {
   res.firstInteraction = domInteractive - startTime;
 
   // White screen time
-  const whiteScreen: any = {
+  const whiteScreen = {
+    time: 0,
     reportTime: loadEventEnd - startTime,
   };
 
   const paintEntries = performance.getEntriesByType("paint");
   if (paintEntries.length > 0) {
-    whiteScreen.time = paintEntries[0].startTime;
+    whiteScreen.time = (paintEntries[0] as PerformanceEntry).startTime;
   } else if ((window as any).chrome?.loadTimes?.().firstPaintTime) {
     whiteScreen.time = (window as any).chrome.loadTimes().firstPaintTime;
   } else {

@@ -16,7 +16,7 @@ export function nestByKey<T extends Nestable>(
   items: T[],
   id: string | number | null = null,
   link: string = "parentId",
-): (T & { children: any[] })[] {
+): (T & { children: (T & { children: any[] })[] })[] {
   return items
     .filter((item) => item[link] === id)
     .map((item) => ({
