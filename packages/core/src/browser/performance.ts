@@ -23,6 +23,16 @@ export interface PerformanceMetrics {
   [key: string]: any;
 }
 
+type PerformanceWithOrigin = Performance & {
+  timeOrigin?: number;
+};
+
+interface WindowWithChrome extends Window {
+  chrome?: {
+    loadTimes?: () => { firstPaintTime: number };
+  };
+}
+
 /**
  * Get performance metrics for the current page
  */
@@ -31,9 +41,9 @@ export function getPerformance(): PerformanceMetrics | null {
     return null;
   }
 
-  const performance = window.performance;
+  const performance = window.performance as PerformanceWithOrigin;
   const timing = performance.timing;
-  const startTime = (performance as any).timeOrigin || timing.navigationStart;
+  const startTime = performance.timeOrigin || timing.navigationStart;
 
   const {
     loadEventEnd,
@@ -77,14 +87,17 @@ export function getPerformance(): PerformanceMetrics | null {
   const paintEntries = performance.getEntriesByType("paint");
   if (paintEntries.length > 0) {
     whiteScreen.time = (paintEntries[0] as PerformanceEntry).startTime;
-  } else if ((window as any).chrome?.loadTimes?.().firstPaintTime) {
-    whiteScreen.time = (window as any).chrome.loadTimes().firstPaintTime;
+  } else if (
+    (window as WindowWithChrome).chrome?.loadTimes?.().firstPaintTime
+  ) {
+    whiteScreen.time = (window as WindowWithChrome).chrome!
+      .loadTimes!().firstPaintTime;
   } else {
     whiteScreen.time = domInteractive - startTime;
   }
 
   res.whiteScreen = whiteScreen;
-  res.performance = performance;
+  res.performance = performance as Performance;
 
   return res as PerformanceMetrics;
 }

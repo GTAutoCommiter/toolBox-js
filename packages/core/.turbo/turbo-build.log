@@ -1,5 +1,5 @@
 
-> @tool-box/core@1.0.0 build /Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/packages/core
+> jvtools@1.0.10 build /Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/packages/core
 > tsup
 
 [34mCLI[39m Building entry: src/index.ts
@@ -11,7 +11,7 @@
 [34mESM[39m Build start
 [34mCJS[39m Build start
 
-[90m[[90m1:38:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
+[90m[[90m3:17:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
 
     src/browser/cookie.ts:12:33:
 [37m      12 │   return document.cookie.replace([32meval[37m(str), "$1");
@@ -22,7 +22,7 @@
 
 
 
-[90m[[90m1:38:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
+[90m[[90m3:17:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
 
     src/string/strIsReg.ts:7:11:
 [37m      7 │     return [32meval[37m(str) instanceof RegExp;
@@ -33,7 +33,7 @@
 
 
 
-[90m[[90m1:38:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
+[90m[[90m3:17:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
 
     src/string/strToReg.ts:9:11:
 [37m      9 │     return [32meval[37m(str);
@@ -44,7 +44,7 @@
 
 
 
-[90m[[90m1:38:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
+[90m[[90m3:17:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
 
     src/browser/cookie.ts:12:33:
 [37m      12 │   return document.cookie.replace([32meval[37m(str), "$1");
@@ -55,7 +55,7 @@
 
 
 
-[90m[[90m1:38:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
+[90m[[90m3:17:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
 
     src/string/strIsReg.ts:7:11:
 [37m      7 │     return [32meval[37m(str) instanceof RegExp;
@@ -66,7 +66,7 @@
 
 
 
-[90m[[90m1:38:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
+[90m[[90m3:17:22 PM[90m][39m [43m[30m WARN [39m[49m [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUsing direct eval with a bundler is not recommended and may cause problems[0m [direct-eval]
 
     src/string/strToReg.ts:9:11:
 [37m      9 │     return [32meval[37m(str);
@@ -76,19 +76,19 @@
 
 
 
-dist/index.cjs (1:1867): Use of eval in "dist/index.cjs" is strongly discouraged as it poses security risks and may cause issues with minification.
-dist/index.cjs (1:1954): Use of eval in "dist/index.cjs" is strongly discouraged as it poses security risks and may cause issues with minification.
-dist/index.cjs (1:2285): Use of eval in "dist/index.cjs" is strongly discouraged as it poses security risks and may cause issues with minification.
 dist/index.js (1:1867): Use of eval in "dist/index.js" is strongly discouraged as it poses security risks and may cause issues with minification.
 dist/index.js (1:1954): Use of eval in "dist/index.js" is strongly discouraged as it poses security risks and may cause issues with minification.
 dist/index.js (1:2285): Use of eval in "dist/index.js" is strongly discouraged as it poses security risks and may cause issues with minification.
-[32mCJS[39m [1mdist/index.cjs     [22m[32m7.19 KB[39m
-[32mCJS[39m [1mdist/index.cjs.map [22m[32m35.67 KB[39m
-[32mCJS[39m ⚡️ Build success in 139ms
+dist/index.cjs (1:1867): Use of eval in "dist/index.cjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+dist/index.cjs (1:1954): Use of eval in "dist/index.cjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+dist/index.cjs (1:2285): Use of eval in "dist/index.cjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+[32mCJS[39m [1mdist/index.cjs     [22m[32m7.20 KB[39m
+[32mCJS[39m [1mdist/index.cjs.map [22m[32m36.48 KB[39m
+[32mCJS[39m ⚡️ Build success in 113ms
 [32mESM[39m [1mdist/index.js     [22m[32m6.99 KB[39m
-[32mESM[39m [1mdist/index.js.map [22m[32m35.67 KB[39m
-[32mESM[39m ⚡️ Build success in 140ms
+[32mESM[39m [1mdist/index.js.map [22m[32m36.48 KB[39m
+[32mESM[39m ⚡️ Build success in 113ms
 DTS Build start
-DTS ⚡️ Build success in 601ms
-DTS dist/index.d.ts  7.76 KB
-DTS dist/index.d.cts 7.76 KB
+DTS ⚡️ Build success in 510ms
+DTS dist/index.d.ts  7.83 KB
+DTS dist/index.d.cts 7.83 KB

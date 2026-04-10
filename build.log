@@ -1,0 +1,117 @@
+
+> docs@1.0.0 build /Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/docs
+> pnpm run api && vitepress build
+
+
+> docs@1.0.0 api /Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/docs
+> pnpm --filter tool-box run docs:api
+
+No projects matched the filters in "/Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js"
+
+  vitepress v1.6.4
+
+- building client + server bundles...
+
+
+(!) Found dead link ./../README in file api/functions/LatAndLong.md
+(!) Found dead link ./../README in file api/functions/LatAndLong.md
+(!) Found dead link ./../README in file api/functions/calcDistance.md
+(!) Found dead link ./../README in file api/functions/calcDistance.md
+(!) Found dead link ./../README in file api/functions/baseBitToDecimal.md
+(!) Found dead link ./../README in file api/functions/baseBitToDecimal.md
+(!) Found dead link ./../README in file api/functions/celsiusToFahrenheit.md
+(!) Found dead link ./../README in file api/functions/celsiusToFahrenheit.md
+(!) Found dead link ./../README in file api/functions/clearAllCookies.md
+(!) Found dead link ./../README in file api/functions/clearAllCookies.md
+(!) Found dead link ./../README in file api/functions/createMatrix.md
+(!) Found dead link ./../README in file api/functions/createMatrix.md
+(!) Found dead link ./../README in file api/functions/curry.md
+(!) Found dead link ./../README in file api/functions/curry.md
+(!) Found dead link ./../README in file api/functions/arrayIsEqual.md
+(!) Found dead link ./../README in file api/functions/arrayIsEqual.md
+(!) Found dead link ./../README in file api/functions/debounce.md
+(!) Found dead link ./../README in file api/functions/debounce.md
+(!) Found dead link ./../README in file api/functions/deleteByPath.md
+(!) Found dead link ./../README in file api/functions/deleteByPath.md
+(!) Found dead link ./../README in file api/functions/decimalToBaseBit.md
+(!) Found dead link ./../README in file api/functions/decimalToBaseBit.md
+(!) Found dead link ./../README in file api/functions/formatMoney.md
+(!) Found dead link ./../README in file api/functions/formatMoney.md
+(!) Found dead link ./../README in file api/functions/dayDif.md
+(!) Found dead link ./../README in file api/functions/dayDif.md
+(!) Found dead link ./../README in file api/functions/formatDate.md
+(!) Found dead link ./../README in file api/functions/formatDate.md
+(!) Found dead link ./../README in file api/functions/formatToFixed.md
+(!) Found dead link ./../README in file api/functions/formatToFixed.md
+(!) Found dead link ./../README in file api/functions/getAllCookies.md
+(!) Found dead link ./../README in file api/functions/getAllCookies.md
+(!) Found dead link ./../README in file api/functions/getBaseURL.md
+(!) Found dead link ./../README in file api/functions/getBaseURL.md
+(!) Found dead link ./../README in file api/functions/getPerformance.md
+(!) Found dead link ./../README in file api/functions/getPerformance.md
+(!) Found dead link ./../README in file api/functions/getCookie.md
+(!) Found dead link ./../README in file api/functions/getCookie.md
+(!) Found dead link ./../README in file api/functions/groupByValue.md
+(!) Found dead link ./../README in file api/functions/groupByValue.md
+(!) Found dead link ./../README in file api/functions/isEmpty.md
+(!) Found dead link ./../README in file api/functions/isEmpty.md
+(!) Found dead link ./../README in file api/functions/isDateValid.md
+(!) Found dead link ./../README in file api/functions/isDateValid.md
+(!) Found dead link ./../README in file api/functions/nestByKey.md
+(!) Found dead link ./../README in file api/functions/nestByKey.md
+(!) Found dead link ./../README in file api/functions/isLeapYear.md
+(!) Found dead link ./../README in file api/functions/isLeapYear.md
+(!) Found dead link ./../README in file api/functions/mapMerge.md
+(!) Found dead link ./../README in file api/functions/mapMerge.md
+(!) Found dead link ./../README in file api/functions/numFixed.md
+(!) Found dead link ./../README in file api/functions/numFixed.md
+(!) Found dead link ./../README in file api/functions/getWeekDay.md
+(!) Found dead link ./../README in file api/functions/getWeekDay.md
+(!) Found dead link ./../README in file api/functions/iteratorObj.md
+(!) Found dead link ./../README in file api/functions/iteratorObj.md
+(!) Found dead link ./../README in file api/functions/objToPath.md
+(!) Found dead link ./../README in file api/functions/objToPath.md
+(!) Found dead link ./../README in file api/functions/omit.md
+(!) Found dead link ./../README in file api/functions/omit.md
+(!) Found dead link ./../README in file api/functions/strIsReg.md
+(!) Found dead link ./../README in file api/functions/strIsReg.md
+(!) Found dead link ./../README in file api/functions/pick.md
+(!) Found dead link ./../README in file api/functions/pick.md
+(!) Found dead link ./../README in file api/functions/rgbToHex.md
+(!) Found dead link ./../README in file api/functions/rgbToHex.md
+(!) Found dead link ./../README in file api/functions/strToReg.md
+(!) Found dead link ./../README in file api/functions/strToReg.md
+(!) Found dead link ./../README in file api/functions/upperFirst.md
+(!) Found dead link ./../README in file api/functions/upperFirst.md
+(!) Found dead link ./../README in file api/functions/throttle.md
+(!) Found dead link ./../README in file api/functions/throttle.md
+(!) Found dead link ./../README in file api/interfaces/Nestable.md
+(!) Found dead link ./../README in file api/interfaces/Nestable.md
+(!) Found dead link ./../README in file api/interfaces/PerformanceMetrics.md
+(!) Found dead link ./../README in file api/interfaces/PerformanceMetrics.md
+(!) Found dead link ./../README in file api/variables/Validate.md
+(!) Found dead link ./../README in file api/variables/Validate.md
+(!) Found dead link ./../README in file api/variables/cloneDeep.md
+(!) Found dead link ./../README in file api/variables/cloneDeep.md
+(!) Found dead link ./../README in file api/functions/pathToObj.md
+(!) Found dead link ./../README in file api/functions/pathToObj.md
+(!) Found dead link ./../README in file api/functions/fahrenheitToCelsius.md
+(!) Found dead link ./../README in file api/functions/fahrenheitToCelsius.md
+
+If this is expected, you can disable this check via config. Refer: https://vitepress.dev/reference/site-config#ignoredeadlinks
+
+x Build failed in 1.05s
+[31m✖[0m building client + server bundles...
+build error:
+[vitepress] 84 dead link(s) found.
+[vitepress] 84 dead link(s) found.
+    at Object.renderStart (file:///Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/node_modules/.pnpm/vitepress@1.6.4_@algolia+client-search@5.50.1_search-insights@2.17.3_typescript@5.9.3/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:45027:15)
+    at file:///Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/node_modules/.pnpm/rollup@4.60.1/node_modules/rollup/dist/es/shared/node-entry.js:22967:40
+    at async Promise.all (index 0)
+    at async PluginDriver.hookParallel (file:///Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/node_modules/.pnpm/rollup@4.60.1/node_modules/rollup/dist/es/shared/node-entry.js:22877:9)
+    at async Bundle.generate (file:///Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/node_modules/.pnpm/rollup@4.60.1/node_modules/rollup/dist/es/shared/node-entry.js:20991:13)
+    at async file:///Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/node_modules/.pnpm/rollup@4.60.1/node_modules/rollup/dist/es/shared/node-entry.js:23954:27
+    at async catchUnfinishedHookActions (file:///Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/node_modules/.pnpm/rollup@4.60.1/node_modules/rollup/dist/es/shared/node-entry.js:23321:16)
+/Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/docs:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  docs@1.0.0 build: `pnpm run api && vitepress build`
+Exit status 1

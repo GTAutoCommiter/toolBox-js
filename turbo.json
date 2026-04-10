@@ -2,8 +2,11 @@
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["dist/**"]
+      "dependsOn": ["^build", "docs:api"],
+      "outputs": ["dist/**", ".vitepress/dist/**"]
+    },
+    "docs:api": {
+      "outputs": ["docs/api/**"]
     },
     "lint": {},
     "test": {

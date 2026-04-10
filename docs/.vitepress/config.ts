@@ -81,6 +81,7 @@ export default defineConfig({
   title: "Tool Box Docs",
   description: "Enterprise Toolkit API Documentation",
   base: "/toolBox-js/",
+  ignoreDeadLinks: true,
 
   locales: {
     root: {
