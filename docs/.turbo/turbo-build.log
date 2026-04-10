@@ -1,0 +1,24 @@
+
+> docs@1.0.0 build /Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/docs
+> pnpm run api && vitepress build
+
+
+> docs@1.0.0 api /Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/docs
+> pnpm --filter tool-box run docs:api
+
+No projects matched the filters in "/Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js"
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mvitepress[22m v1.6.4[39m
+
+[?25l[1G[1G⠋ building client + server bundles...[1G[0K[1A[0K⠙ building client + server bundles...[1G[0K[1A[0K⠹ building client + server bundles...[1G[0K[1A[0K⠹ building client + server bundles...[1G[0K[1A[0K⠸ building client + server bundles...[1G[0K[1A[0K⠼ building client + server bundles...[1G[0K[1A[0K⠴ building client + server bundles...[1G[0K[1A[0K⠴ building client + server bundles...[2K[1G[1G[0K[1A[0K⠦ building client + server bundles...[1G[0K[1A[0K⠧ building client + server bundles...[1G[0K[1A[0K⠇ building client + server bundles...[1G[0K[1A[0K⠏ building client + server bundles...[1G[0K[1A[0K⠋ building client + server bundles...[2K[1G[1G[0K[1A[0K⠙ building client + server bundles...[1G[0K[1A[0K[?25h[32m✓[0m building client + server bundles...
+[?25l[1G[1G⠋ rendering pages...[1G[0K[?25h[32m✓[0m rendering pages...
+build complete in 1.81s.
+[?25h

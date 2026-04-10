@@ -1,0 +1,45 @@
+{
+  "name": "jvtools",
+  "version": "1.0.9",
+  "description": "js常见方法工具包",
+  "author": "GTAutoCommiter",
+  "license": "ISC",
+  "keywords": [
+    "js",
+    "utils",
+    "tools"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GTAutoCommiter/toolBox-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GTAutoCommiter/toolBox-js/issues"
+  },
+  "homepage": "https://github.com/GTAutoCommiter/toolBox-js#readme",
+  "scripts": {
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts",
+    "build": "tsup",
+    "test": "vitest run",
+    "lint": "eslint src/**/*.ts"
+  }
+}

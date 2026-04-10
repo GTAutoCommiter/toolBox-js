@@ -1,0 +1,17 @@
+
+> @tool-box/core@1.0.0 test /Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/packages/core
+> vitest run
+
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90m/Users/laojiawei/0_Data/1_workPlace/0_my/toolBox-js/packages/core[39m
+
+ [32m✓[39m [2mtests/[22mindex[2m.test.ts[22m[2m (1)[22m
+   [32m✓[39m debounce[2m (1)[22m
+     [32m✓[39m should debounce function calls
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m   Start at [22m 11:32:30
+[2m   Duration [22m 211ms[2m (transform 31ms, setup 0ms, collect 26ms, tests 3ms, environment 0ms, prepare 65ms)[22m
+
+[?25h

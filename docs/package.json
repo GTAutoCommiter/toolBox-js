@@ -1,0 +1,15 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "pnpm run api && vitepress build",
+    "preview": "vitepress preview",
+    "api": "pnpm --filter tool-box run docs:api"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.1"
+  }
+}

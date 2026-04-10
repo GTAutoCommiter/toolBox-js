@@ -1,0 +1,57 @@
+{
+  "name": "tool-box",
+  "private": true,
+  "version": "1.0.9",
+  "description": "js常见方法工具包",
+  "author": "GTAutoCommiter",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GTAutoCommiter/toolBox-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GTAutoCommiter/toolBox-js/issues"
+  },
+  "homepage": "https://github.com/GTAutoCommiter/toolBox-js#readme",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "docs:dev": "pnpm --filter docs run dev",
+    "docs:build": "pnpm --filter docs run build",
+    "docs:api": "typedoc --plugin typedoc-plugin-markdown --out docs/api packages/core/src/index.ts && [ -f docs/api/README.md ] && mv docs/api/README.md docs/api/index.md || true",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "turbo run build && changeset publish",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
+    "turbo": "^1.12.4",
+    "typedoc": "^0.28.0",
+    "typedoc-plugin-markdown": "^4.0.0-next.60",
+    "typescript": "^5.3.3",
+    "vitest": "^1.3.1"
+  },
+  "packageManager": "pnpm@8.15.4",
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,css}": [
+      "prettier --write"
+    ]
+  }
+}
