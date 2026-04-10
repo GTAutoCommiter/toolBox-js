@@ -1,5 +1,11 @@
 # jvtools
 
+## 1.0.12
+
+### Patch Changes
+
+- 9436b65: fix: resolve CI publishing conflicts
+
 ## 1.0.11
 
 ### Patch Changes
