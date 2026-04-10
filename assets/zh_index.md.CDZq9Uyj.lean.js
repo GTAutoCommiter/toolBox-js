@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,ae as r}from"./chunks/framework.DcaxifCU.js";const h=JSON.parse('{"title":"Tool Box","description":"","frontmatter":{},"headers":[],"relativePath":"zh/index.md","filePath":"zh/index.md"}'),n={name:"zh/index.md"};function i(l,o,s,d,_,c){return t(),a("div",null,[...o[0]||(o[0]=[r("",4)])])}const x=e(n,[["render",i]]);export{h as __pageData,x as default};
